@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Digits</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./cal.png" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="back">
+    <div class="text">
+    <h1>Sum of Digits of a number
+    <br>
+    <br>
+    </h1>
+    </div>
+    <div class="n">
+        Enter a number : 
+        <br>
+        <br>
+        <input type="text" name="number" id="nos" style="border-radius: 5px;" placeholder="Enter Number" />
+        <br>
+        <br>
+    </div>
+    <div class="play">
+    <input type="button" onclick="sum(document.getElementById('nos').value)" class="button" value="Calculate">
+    </div> 
+        <div class="new">
+            Output :
+            <br>
+            <br>
+            <span id="test"></span>
+            <br>
+            <br>
+        </div>
+    </div>
+</body>
+</html>

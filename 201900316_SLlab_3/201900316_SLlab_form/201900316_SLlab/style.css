@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.back {
+  background: url("./b.jpg");
+  background-size: cover;
+}
+.text {
+  padding-left: 50px;
+  text-align: center;
+  color: beige;
+}
+.text:hover {
+  color: #f26243;
+}
+.for {
+  text-align: center;
+}
+.f {
+  padding-right: 255px;
+}
+.one {
+  padding-right: 430px;
+}
+.gen {
+  padding-right: 280px;
+}
+.rem {
+  padding-right: 240px;
+}
+.n {
+  padding-left: 45px;
+}
+.feed {
+  padding-right: 42px;
+}
+.hob {
+  padding-right: 200px;
+}
+.ch {
+  padding-left: 20px;
+}
+.ho {
+  padding-right: 180px;
+}
+.area {
+  padding-left: 150px;
+}
+.button {
+  background-color: #f26243;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.play {
+  padding-top: 22px;
+  display: flex;
+  margin-left: 500px;
+}
+.button:hover {
+  color: black;
+}
+input {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./form.png" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="back">
+    <div class="text">
+    <h1>Form Submission for College Feedback
+    <br>
+    <br>
+    </h1>
+    </div>
+    <div class="for">
+    <form>
+    <div class="n">
+    First name: <input type = "text" name = "first_name" style="border-radius: 5px;" placeholder="Enter first name"/>
+    Last name: <input type = "text" name = "last_name" style="border-radius: 5px;" placeholder="Enter last name"/>
+    <br>
+    <br>
+    </div>
+    <div class="f">
+    Phone: <input type = "tel" name = "phone" style="border-radius: 5px;" placeholder="Enter phone number"/>
+    <br>
+    <br>
+    Email: <input type = "email" name = "email" style="border-radius: 5px;" placeholder="Enter email id"/>
+    <br>
+    <br>
+    </div>
+    <div class="one">
+    Gender:
+    <br>
+    </div>
+    <div class="gen">
+    <input type="radio" name="gender" value="male"> Male &nbsp;
+    <input type="radio" name="gender" value="female"> Female &nbsp;
+    <input type="radio" name="gender" value="other"> Other &nbsp;
+    <br>
+    <br>
+    </div>
+    <div class="rem">
+    Date of Birth: <input type="date" name="dob" placeholder="Enter DOB">
+    <br>
+    <br>
+    <div class="feed">
+    <label for="rating">Feedback Rating:</label>
+    <select id="rating">
+    <option value="Very Good">Very Good</option>
+    <option value="Good">Good</option>
+    <option value="Average">Average</option>
+    <option value="Poor">Poor</option>
+    <option value="Worst">Worst</option>
+    </select>
+    </div>
+    <br>
+    <div class="hob">
+    Hobbies: 
+    <br>
+    <br>
+    </div>
+    <div class="ch">
+    <input type="checkbox" name="dob" placeholder="Enter DOB">Reading
+    <input type="checkbox" name="dob" placeholder="Enter DOB">Coding
+    <input type="checkbox" name="dob" placeholder="Enter DOB">Dancing
+    <input type="checkbox" name="dob" placeholder="Enter DOB">Singing
+    <br>
+    <br>
+    </div>
+    <div class="ho">
+    Feedback : 
+    <br>
+    <br>
+    </div>
+    <div class="area">
+    <textarea rows = "5" cols = "50" style="border-radius: 5px;background-color: rgba(0,0,0,0.4);" name = "description">Enter your Feedback</textarea>
+    </div>
+    <div class="play">
+    <input type="button" onclick="alert('Form Submitted')" class="button" value="Submit"> 
+    <input type="reset" class="button" value="Reset">
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    </form>
+    </div>
+
+
+    </div>
+</body>
+</html>
